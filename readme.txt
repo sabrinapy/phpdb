@@ -3,8 +3,8 @@
 【使用者】
 1. 請先安裝php5、phpmyadmin、PHPMailer、mysql。
 
-2. 到http://140.127.218.250:49006/phpmyadmin，將localhost.sql匯入到自己的資料庫中。
-   (以下操作都在http://140.127.218.250:49006/下，將省略。)
+2. 到http://140.127.218.250:49006/phpmyadmin ，將localhost.sql匯入到自己的資料庫中。
+   (以下操作都在http://140.127.218.250:49006/ 下，將省略。)
 
 3. 將include.php打開會看到下面這行，請把裡面的帳密改成自己資料庫的。
 >> $link=mysqli_connect("(appserver名稱，通常預設為localhost)","(帳號)","(密碼)","phpdbwork");
