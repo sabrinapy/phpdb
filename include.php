@@ -1,6 +1,6 @@
 <?php
 
-$link=mysqli_connect("localhost","root","phpdb123","phpdbwork");
+$link=mysqli_connect("localhost","","","phpdbwork");
 mysqli_query($link,"set name utf8");
 
 ?>
